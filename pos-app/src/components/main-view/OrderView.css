@@ -1,0 +1,136 @@
+
+.orders {
+    flex: 4;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .orders-selection {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    align-items: center;
+    flex:1;
+  }
+  
+  .orders-load {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    flex: 10;
+    overflow: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+  .orders-load::-webkit-scrollbar { 
+    display: none;
+}
+
+  
+  .orders-load-scrollable {
+    min-height: min-content;
+  }
+  
+  .orders-footer {
+    background-color: #242424;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+  }
+  
+  .orders-btn {
+    font-size: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: whitesmoke;
+    border: none;
+    color: #242424;
+    text-align: center;
+    text-decoration: none;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .button-active {
+    color:white;
+    background-color: #242424;
+  }
+  
+  .orders-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #242424;
+    padding: 2em;
+    color: white;
+    
+  }
+  
+  .orders-item-time {
+    flex: 1;
+    align-self: center;
+    font-size: 1.3em;
+  }
+  
+  .orders-item-infoContainer {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-self: center;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+  }
+  
+  .orders-item-infoContainer-primary {
+    font-weight: 200;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+  }
+  
+  .orders-item-infoContainer-secondary {
+    font-style: italic;
+    font-weight: 200;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+  }
+  
+  .orders-item-total {
+    flex: 1;
+    align-self: center;
+    font-size: 1.3em;
+  }
+  
+  .orders-item-done {
+    flex: 1;
+    background-color: #242424;
+    color: white;
+    border: 2px white solid;
+    
+  }
+  
+  .vl {
+    border-left: 1px solid grey;
+    height: 80%;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .enable-view {
+    display: initial;
+  }
+
+  .disable-view {
+    display: none;
+  }
+
+
+
